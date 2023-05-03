@@ -1,8 +1,12 @@
 # CamelCase
-class UserAdmin():
+# Identacion: 4 espacios (No tabs)
+# Parametros separados por la "," deben de llevar un espacio
+# snake_case
+# espacios entre operadores
+# Terminar scripts con un enter 
 
-    # Identacion: 4 espacios (No tabs)
-    # Parametros separados por la "," deben de llevar un espacio
+
+class UserAdmin():
 
 
     def __init__(self, username, password = ''):
@@ -13,6 +17,5 @@ class UserAdmin():
     def set_password(self):
         pass
 
-# snake_case
-# espacios entre operadores
+
 cody_user = UserAdmin('Cody')
